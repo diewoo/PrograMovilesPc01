@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PokemonApp</string>
+    <string name="incorrect_toast">No dejar vacio!</string>
+    <string name="incorrectp_toast">La respuesta fue contestada incorrectamente</string>
+    <string name="correct_toast">La respuesta fue contestada correctamente</string>
+    <string name="ingresar">Ingrese Usuario</string>
+    <string name="INGRESAR">INGRESAR</string>
+
+
+</resources>

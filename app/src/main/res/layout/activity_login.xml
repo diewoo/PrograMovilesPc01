@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+              android:padding="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+
+
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pokemon_front"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+
+            />
+    </LinearLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+
+    android:layout_height="0dp"
+    android:layout_weight="0.25"
+    android:baselineAligned="false"
+    android:paddingTop="0dp"
+
+>
+
+
+            <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:hint="@string/ingresar"
+
+            android:id="@+id/edit"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="30dp"
+
+
+
+
+            />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/botonlogin"
+        android:text="@string/INGRESAR"
+
+        android:background="@color/colorboton"
+        android:textColor="#FFCB05"
+        android:drawableLeft="@drawable/ic_ingresar"
+        android:layout_alignParentBottom="true"
+
+
+        />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

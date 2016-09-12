@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+            android:padding="10dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="8"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/pokeball"
+            android:layout_weight="4"
+            android:id="@+id/imagenPokemon"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Pregunta %s"
+            android:layout_weight="1"
+            android:textSize="15pt"
+            android:id="@+id/pregunta"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Este es un texto de ejemplo"
+            android:layout_weight="1"
+            android:textSize="8pt"
+            android:id="@+id/glosa_texto"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:hint="Ingrese su respuesta"
+            android:layout_weight="1"
+            android:layout_marginBottom="80dp"
+            android:id="@+id/respuesta"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:paddingTop="70dp"
+            >
+
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                    android:id="@+id/boton_validar"
+                android:textColor="#FFCB05"
+                android:background="#2F6DB4"
+                android:src="@drawable/ic_send"/>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="#FFCB05"
+                android:background="#2F6DB4"
+                android:src="@drawable/ic_next"
+                android:id="@+id/boton_next"/>
+
+
+        </LinearLayout>
+
+</LinearLayout>
